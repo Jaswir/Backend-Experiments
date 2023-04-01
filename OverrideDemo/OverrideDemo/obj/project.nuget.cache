@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pr1QD9WPl448jf3yrqss+9BN7tYMB0c+j+7MZimOD8IRm2LgfTZ4N79b3VT2dlq+zEjFfJEhzqhlt7xE/B+UVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\OverrideDemo\\OverrideDemo\\OverrideDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

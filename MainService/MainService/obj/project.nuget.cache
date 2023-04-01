@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e01PljIc0H5rbpSNwlwiRG1Jw1BmtXYptxkbXpYTzQ2sSZU/iyvE6J0ybNQlSGIAxjFzlfjGvFPgjMdjTx3ocw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\MainService\\MainService\\MainService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

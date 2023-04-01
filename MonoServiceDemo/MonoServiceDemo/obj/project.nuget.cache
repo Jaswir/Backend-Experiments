@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6M38/tbjF+QWPLRVh+sVFuKKC5IYwd2HF4ybS2JA+SvXYXM3x0hoMTNUQ1+BgZV0zsPScr0MiWwxQNNgNw/QDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\MonoServiceDemo\\MonoServiceDemo\\MonoServiceDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

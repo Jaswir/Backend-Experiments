@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CMqQOG/e68/PUrKBYz7XhOcsSfDxvPC644AHkyjuEjQ=",
+  "Source": "MassTransitDemo_OrderService",
+  "BasePath": "_content/MassTransitDemo_OrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

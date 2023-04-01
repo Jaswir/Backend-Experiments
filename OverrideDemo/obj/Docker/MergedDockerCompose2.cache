@@ -1,0 +1,21 @@
+name: dockercompose205302074490747379
+services:
+  overridedemo:
+    build:
+      context: C:\Users\Jaswir Raghoe\source\repos\OverrideDemo
+      dockerfile: OverrideDemo/Dockerfile
+    image: overridedemo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5100"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "5100"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose205302074490747379_default

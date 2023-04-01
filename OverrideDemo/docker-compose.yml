@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  overridedemo:
+    image: ${DOCKER_REGISTRY-}overridedemo
+    build:
+      context: .
+      dockerfile: OverrideDemo/Dockerfile
+    ports:
+      - 5100:80
+      - 5101:443

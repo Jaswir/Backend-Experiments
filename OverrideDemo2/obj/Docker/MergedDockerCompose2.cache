@@ -1,0 +1,12 @@
+name: dockercompose9447565558775358131
+services:
+  overridedemo2:
+    build:
+      context: C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2
+      dockerfile: OverrideDemo2/Dockerfile
+    image: overridedemo2
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose9447565558775358131_default

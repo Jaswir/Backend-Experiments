@@ -1,0 +1,19 @@
+name: dockercompose9447565558775358131
+services:
+  overridedemo2:
+    build:
+      context: C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2
+      dockerfile: OverrideDemo2/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: overridedemo2
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5100"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose9447565558775358131_default

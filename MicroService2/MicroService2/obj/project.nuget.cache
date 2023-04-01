@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OiNkue+un0bPudCNcVCyIpP7bGIWyjIB8T06skg0UfDxycdqpW0Ik+sa3UBYL7Lx8ckD+DiSc3H4EMza6PHeFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jaswir Raghoe\\source\\repos\\MicroService2\\MicroService2\\MicroService2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jaswir Raghoe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

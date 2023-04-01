@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tXu79+RNo+UXkNfOVQrcH58onIe1aP75UWyD4rtm8h4=",
+  "Source": "MassTransitDemo_InventoryService",
+  "BasePath": "_content/MassTransitDemo_InventoryService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

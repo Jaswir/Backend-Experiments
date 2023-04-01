@@ -1,0 +1,59 @@
+using MassTransit;
+using ModelLibrary;
+
+//var bus = Bus.Factory.CreateUsingRabbitMq(config => {
+
+//    config.Host("amqp://guest:guest@localhost:5672");
+
+//    //declare listener
+//    config.ReceiveEndpoint("temp-queue", c =>
+//    {
+//        c.Handler<Order>(ctx =>
+//        {
+//            return Console.Out.WriteLineAsync(ctx.Message.Name);
+//        });
+
+//    });
+
+//});
+
+//bus.Start();
+//bus.Publish(new Order { Name = "Job offer at Greenchoice" });
+
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ctx, cfg) =>
+    {
+        cfg.Host("amqp://guest:guest@localhost:5672");
+    });
+});
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+
+app.Run();
+
+

@@ -1,0 +1,11 @@
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.deps.json
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.runtimeconfig.json
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\appsettings.Development.json
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\appsettings.json
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.staticwebassets.runtime.json
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.exe
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.dll
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\bin\Debug\OverrideDemo2.pdb
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Jaswir Raghoe\source\repos\OverrideDemo2\obj\Debug\docker-compose.dcproj.CopyComplete
